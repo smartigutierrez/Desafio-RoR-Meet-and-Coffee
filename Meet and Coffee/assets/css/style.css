@@ -1,0 +1,155 @@
+body {
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.oscuro {
+  background-color: #000f08;
+  text-align: left;
+  padding: 10px 0 10px 0;
+  display: flex;
+
+}
+
+ul {
+  background-color: #000f08;
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  align-items: center;
+  align-items: center;
+}
+
+.icono {
+  size: 1em;
+  align-content: center;
+}
+
+.icono svg {
+  height: 32px;
+  fill: white;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  background-color: #000f08;
+  align-items: center;
+  size: 25px;
+  margin:15px;
+  
+}
+
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Open sans;
+  text-shadow: 0px 3px 6px black;
+  text-align: right;
+  color: white;
+  position: sticky;
+  padding: 5%;
+  z-index: -1;
+}
+
+header h1 {
+  font-size: 60px;
+}
+
+header h3 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#ubicacion {
+  padding: 5%;
+}
+
+#ubicacionimg {
+  height: 30%;
+  width: 30%;
+}
+
+#proxima-charla {
+  background: #a4452c;
+  padding: 5%;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.charla-texto {
+  text-align: start;
+}
+
+.charlaimg {
+  padding: 0;
+}
+
+#eventos {
+  padding: 5%;
+}
+
+.eventos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 5%;
+}
+
+#evento2 {
+  height: 85%;
+  width: 85%;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  left: 0;
+  width: 100%;
+  background-color:#000f08;
+  color: white;
+  text-align: center;
+}
+
+p{
+    margin:0;
+}
+
+i {
+  font-size: 16px;
+  color: white;
+  align-content: center;
+}
+
+.containergregorio{
+display:grid
+}
+
+.gregorio{
+padding: 2% 12% 5% 12%;
+text-align: left;
+}
+
+#evento2{
+padding-top:10px;
+height: 75%;
+width: 75%;
+
+}
+
+#vegan {
+    text-align: left;
+    padding-left: 12.5%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
+}
